@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Creepy crawlies!</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#beetles">🐞 Beetles</a></li>
+          <li><a href="#true_bugs">🪲 True bugs</a></li>
+          <li><a href="#butterflies_moths">🦋 Butterflies and moths</a></li>
+          <li><a href="#flies_mosquitos">🦟 Flies and mosquitos</a></li>
+          <li><a href="#bees_wasps_ants">🐝 Bees, wasps, and ants</a></li>
+          <li><a href="#spiders">🕷️ Spiders</a></li>
+        </ul>
+      </nav>
+      <section>
+        <h1>Creepy-crawlies splash page!</h1>
+
+        <!-- Fixed video -->
+        <video autoplay muted loop preload="metadata">
+          <source src="bug_video_640.mp4" type="video/mp4">
+        </video>
+
+        <p>
+          In casual language, people use “bugs” to mean all sorts of small
+          creepy-crawlies: insects, spiders, etc. However, “Bugs” (true bugs)
+          are actually just one order of insects (Hemiptera). This page
+          provides a summary of the main classes or groups of
+          creepy-crawlies.
+        </p>
+      </section>
+    </header>
+
+    <main>
+      <section id="beetles">
+        <h2>🐞 Beetles (Coleoptera)</h2>
+        <figure>
+          <img src="beetle.png" alt="A beetle with hardened wings" width="250" height="180">
+          <figcaption>A Beetles Photo</figcaption>
+        </figure>
+        <p>
+          Beetles make up the largest order of insects, with more than
+          350,000 known species. They are recognized by their hardened
+          forewings (elytra) that cover and protect the delicate hindwings
+          and abdomen. This feature gives them a tough, armored look and
+          helps them survive in many environments, from forests to deserts.
+          Beetles can vary greatly in size, color, and habits, ranging from
+          tiny grain beetles to massive stag beetles with impressive jaws.
+        </p>
+        <p>
+          Many beetles play important ecological roles. Some, like ladybugs,
+          are beneficial predators that feed on crop pests such as aphids.
+          Others, such as dung beetles, recycle nutrients by breaking down
+          animal waste. However, certain species like the Colorado potato
+          beetle or Japanese beetle are major agricultural pests. Their
+          diversity and adaptability make beetles one of the most successful
+          groups of insects on Earth.
+        </p>
+      </section>
+
+      <section id="true_bugs">
+        <h2>🪲 True Bugs (Hemiptera)</h2>
+        <figure>
+          <img src="true_bug.jpg" alt="A true bug with piercing-sucking mouthparts" width="250" height="180">
+          <figcaption>A True Bug Photo</figcaption>
+        </figure>
+        <p>
+          True bugs include a wide range of insects such as stink bugs,
+          cicadas, aphids, and water striders. Unlike beetles, their
+          forewings are partly hardened and partly membranous, and they
+          possess distinctive piercing-sucking mouthparts. These mouthparts
+          are adapted for feeding on plant sap, blood, or other insects. Many
+          true bugs have scent glands that produce strong odors as a defense
+          mechanism, which is why some are called “stink bugs.”
+        </p>
+      </section>
+
+      <section id="butterflies_moths">
+        <h2>🦋 Butterflies & Moths (Lepidoptera)</h2>
+        <figure>
+          <img src="butterfly.jpg" alt="A colorful butterfly" width="250" height="180">
+          <figcaption>A Big Butterflies Photo</figcaption>
+        </figure>
+        <p>
+          Butterflies and moths are some of the most recognizable insects
+          thanks to their large, often colorful wings covered in tiny scales.
+          These scales give their wings shimmering, patterned appearances and
+          are one of the defining traits of this group. Butterflies are
+          usually active by day, while moths are mostly nocturnal, though
+          there are exceptions. Both undergo complete metamorphosis, with a
+          dramatic transformation from caterpillar to winged adult.
+        </p>
+      </section>
+
+      <section id="flies_mosquitos">
+        <h2>🦟 Flies & Mosquitoes (Diptera)</h2>
+        <figure>
+          <img src="mosquito.jpg" alt="A mosquito insect" width="250" height="180">
+          <figcaption>A mosquito Photo</figcaption>
+        </figure>
+        <p>
+          Flies and mosquitoes belong to the order Diptera, meaning “two
+          wings.” Unlike most other insects, they have only one functional
+          pair of wings; the hind pair has evolved into tiny balancing organs
+          called halteres. This adaptation gives them incredible agility in
+          flight.
+        </p>
+      </section>
+
+      <section id="bees_wasps_ants">
+        <h2>🐝 Bees, Wasps, Ants (Hymenoptera)</h2>
+        <figure>
+          <img src="bee.jpg" alt="A bee collecting nectar" width="250" height="180">
+          <figcaption>A Bee Photo</figcaption>
+        </figure>
+        <p>
+          Bees, wasps, and ants are a diverse group known for their complex
+          behaviors and social structures. Many species live in colonies with
+          distinct roles for workers, queens, and males. Bees are especially
+          famous for pollination, producing honey, and communicating with
+          each other through dances.
+        </p>
+      </section>
+
+      <section id="spiders">
+        <h2>🕷️ Spiders (Araneae)</h2>
+        <figure>
+          <img src="spider.jpg" alt="A spider with eight legs" width="250" height="180">
+          <figcaption>A Spider Photo</figcaption>
+        </figure>
+        <p>
+          Spiders are arachnids, not insects, and are easily distinguished by
+          their eight legs and lack of antennae. Almost all spiders are
+          predators, using venom and silk to capture prey.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
