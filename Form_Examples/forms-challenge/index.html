@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Forms challenge</title>
+    <link href="style.css" rel="stylesheet" />
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+
+    <div>
+        <h1>We want your feedback</h1>
+
+        <p>We're very excited that you visited the little house in the woods,
+            and we want to hear what you thought of it! Please fill in the below
+            sections. You don't need to provide your name or contact details, but
+            if you do, we'll enter you into a prize draw where you'll have a chance
+            to win prizes.
+        </p>
+
+        <img src="woodland-strip.jpg" alt="">
+    </div>
+
+    <div>
+        <h2>Facilities</h2>
+        <p>
+        <label for="porridge">Was the porridge?</label>
+        </p>
+        <label for=""><input type="radio" value="too hot?" name="porridge" checked> Too Hot?</label>
+        <label for=""><input type="radio" value="too cold?" name="porridge">Too Cold?</label>
+        <label for=""><input type="radio" value="just right?" name="porridge">Just Right?</label>
+        
+        
+    
+        <p><label for="beds">Were the beds</label></p>
+        <label for=""><input type="radio" value="too hard?" name="beds" checked>Too Hard?</label>
+        <label for=""><input type="radio" value="too soft?" name="beds">Too Soft?</label>
+        <label for=""><input type="radio" value="just right?" name="beds">Just Right?</label>
+    
+        <p> Describe the chairs (select all you agree with)</p>
+        <label for=""><input type="checkbox" value="comfy" name="chairs">Comfy</label>
+        <label for=""><input type="checkbox" value="luxurious" name="chairs">Luxurious</label>
+        <label for=""><input type="checkbox" value="hi-tech" name="chairs">Hi-Tech</label>
+        <label for=""><input type="checkbox" value="pretty" name="chairs">Pretty</label>
+        <label for=""><input type="checkbox" value="majestic" name="chairs">Majestic</label>
+        
+    </div>
+   <br>
+
+
+   <div>
+    <h2>About your hosts</h2>
+
+    <p>
+        <label for="">Who's your favorite bear?</label>
+        <select name="favorite_bear" id="">
+            <option value="papa bear">Papa Bear</option>
+            <option value="mama bear">Mama Bear</option>
+            <option value="junior">Junior</option>
+            <option value="dozer">Dozer</option>
+        </select>
+    </p>
+
+    <p>
+        <label for="">Which greeting did you prefer?</label>
+        <select name="greeting" id="">
+            <option value="wave">Wave</option>
+            <option value="friendly greeting">Friendly greeting</option>
+            <option value="growl">Growl</option>
+            <option value="claw">Claw marks in the door</option>
+        </select>
+    </p>
+   </div>
+
+
+   <div>
+    <h2>Any other feedback?</h2>
+
+    <label for="comment">Give us your comments</label>
+    <textarea name="comment" id="comment"></textarea>
+   </div>
+   <br>
+
+   <div>
+    <h2>Your details</h2>
+    <form action="">
+        <p>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required>
+        </p>
+
+        <p>
+            <label for="phno">Phone Number:</label>
+            <input type="tel" name="phno" id="phno" required>
+        </p>
+
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+        </p>
+
+        <p>        <button type="submit">Submit</button></p>
+    </form>
+
+   </div>
+
+  </body>
+</html>
